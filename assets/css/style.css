@@ -1,0 +1,114 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(233, 243, 247);
+
+}
+
+
+nav .list li{
+    display: inline;
+    text-transform: uppercase;
+    padding: 25px;
+  
+}
+nav .list li:hover{
+    cursor: pointer;
+    color: red;
+}
+.head-nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  
+}
+h1{
+    
+    font-size: 50px;
+}
+span{
+    color: gold;
+    text-transform: capitalize;
+}
+p{
+    color: gray;
+}
+button{
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+.container{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.text-area{
+    width: 480px;
+   
+}
+.img-sec{
+    width: 600px;
+    height: 600px;
+    padding-top: 70px;
+    
+}
+.shape{
+    width: 500px;
+    transition: 1s;
+    
+}
+.girl{
+    width: 400px;
+    transition: 1s;
+   
+    position: absolute;
+    right: 250px;
+}
+.img-sec:hover .shape{
+    transform: translateY(-50px)
+}
+.img-sec:hover .girl{
+    transform: translateX(-50px);
+}
+
+.bi{
+    position: relative;
+    top: 180px;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+
+}
+.bi:hover{
+ color: rgb(145, 145, 52);
+}
+/* .bi-dribbble{
+    position: relative;
+    top: 90px;
+    font-size: 20px;
+    color: black;
+
+}
+.bi-behance{
+    position: relative;
+    top: 90px;
+    font-size: 20px;
+    color: black;
+
+} */
